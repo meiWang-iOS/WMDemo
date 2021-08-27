@@ -1,0 +1,21 @@
+PODS:
+  - WMLogining (0.1.0)
+  - WMNetworking (0.1.0)
+
+DEPENDENCIES:
+  - WMLogining (from `Lib/WMLogining`)
+  - WMNetworking (from `Lib/WMNetworking`)
+
+EXTERNAL SOURCES:
+  WMLogining:
+    :path: Lib/WMLogining
+  WMNetworking:
+    :path: Lib/WMNetworking
+
+SPEC CHECKSUMS:
+  WMLogining: dd42b1e21cdfe6986f914d9ff5716ef4ad255a81
+  WMNetworking: f3b78981eb48606235ea79a49f1ac31cf7c96252
+
+PODFILE CHECKSUM: 36b4460041e270fa9e6ff84b2a90551b41eb119b
+
+COCOAPODS: 1.10.2

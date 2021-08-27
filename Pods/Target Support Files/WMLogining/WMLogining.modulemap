@@ -1,0 +1,6 @@
+framework module WMLogining {
+  umbrella header "WMLogining-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,821 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1C280FE910CC9EDC43E97BFB3D63CAB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		3680C2DBA4BA56A159442317311CB948 /* WMNetworking-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E304AAF3EFA26945139FC1392BE0AF2 /* WMNetworking-dummy.m */; };
+		62D9D8016DA5FA326A8717F712B604F2 /* WMLogining-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3A1592772CB6DD45BED0D23A948F893 /* WMLogining-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		675D00CCD4B8B5465AE2E7C1BE6F6D45 /* WMLogining.h in Headers */ = {isa = PBXBuildFile; fileRef = 23E75EBA221B06EC23B693C0A2B36AF2 /* WMLogining.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97F3086AD924858DE389313C56ED8C50 /* WMNetworking.h in Headers */ = {isa = PBXBuildFile; fileRef = 78D0A482A4B7DE9BA93A62079325A89F /* WMNetworking.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ACFEB3106ED8E91ADE21F7084A6D687D /* Pods-WMDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6844E7F671640C38F522F6DFC6BE60B /* Pods-WMDemo-dummy.m */; };
+		B26BE19D7CFCE5B998BC43C3A408C58E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B77BCA003F10ACB14D30001DD3BEF987 /* WMNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = CEBCB8409198E5DD11E366B7F3BD4192 /* WMNetworking.m */; };
+		DD7AC25E13A729EB8285B3BE65A82723 /* Pods-WMDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E5A45F8C948F184B0F6416B578A9E2E /* Pods-WMDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1469391CE35B9E86CA544AF33B94403 /* WMLogining.m in Sources */ = {isa = PBXBuildFile; fileRef = F23712D5D26A4434C4D6E4908F473963 /* WMLogining.m */; };
+		E2C6C85F8957156D1A1040180D097490 /* WMLogining-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 53DBF0A7A46F780D2EA7CE0BF84C22E3 /* WMLogining-dummy.m */; };
+		FFCADD4A4215E1754A907171C73FBC3B /* WMNetworking-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 878DE029124FF5828B3C2DC80178D923 /* WMNetworking-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFE09DB469C708637457CBD7ACC773D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4E984972FFFD42FD1F6FE659DA76D444 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173507D8DB7199CFAE1975A43469827C;
+			remoteInfo = WMLogining;
+		};
+		B1CD3CCB78D7B28B582E9542AE6B6EC9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C2B862DBD38D2319EBCD16B3FF04739;
+			remoteInfo = WMNetworking;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0ED4BF71D9A9DAE5CB6D53954A6B4F26 /* Pods_WMDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_WMDemo.framework; path = "Pods-WMDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		100FA5DA6CD7065DAD0398A81BD19F60 /* WMLogining.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WMLogining.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		104998F2B8D5CAEE595AD2F9F34460FD /* WMNetworking.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = WMNetworking.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E304AAF3EFA26945139FC1392BE0AF2 /* WMNetworking-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMNetworking-dummy.m"; sourceTree = "<group>"; };
+		23E75EBA221B06EC23B693C0A2B36AF2 /* WMLogining.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMLogining.h; path = WMLogining/Classes/WMLogining.h; sourceTree = "<group>"; };
+		363927FBEE460A541A94A08D956428FB /* WMLogining-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMLogining-prefix.pch"; sourceTree = "<group>"; };
+		4714FD572934DB5D916C2372FD1ADBD8 /* WMNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMNetworking.release.xcconfig; sourceTree = "<group>"; };
+		52585B223419730ABD52424B8273EB42 /* Pods-WMDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WMDemo.modulemap"; sourceTree = "<group>"; };
+		53DBF0A7A46F780D2EA7CE0BF84C22E3 /* WMLogining-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WMLogining-dummy.m"; sourceTree = "<group>"; };
+		554A61207CA3FE82DFCC766D375C86E3 /* WMLogining.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMLogining.debug.xcconfig; sourceTree = "<group>"; };
+		6E335AE7E79A0440E6C3C6D10A8E4CC0 /* WMNetworking-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMNetworking-prefix.pch"; sourceTree = "<group>"; };
+		6E5A45F8C948F184B0F6416B578A9E2E /* Pods-WMDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WMDemo-umbrella.h"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		78D0A482A4B7DE9BA93A62079325A89F /* WMNetworking.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WMNetworking.h; path = WMNetworking/Classes/WMNetworking.h; sourceTree = "<group>"; };
+		878DE029124FF5828B3C2DC80178D923 /* WMNetworking-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMNetworking-umbrella.h"; sourceTree = "<group>"; };
+		8B28CE1A619D0E29B0EBB276F02CAC5F /* WMNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WMNetworking.framework; path = WMNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		981B3F356E71AD5D1A338E90A9945EAF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9BD27D45FD9752EDB0CFB291957F0C2D /* WMNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMNetworking.debug.xcconfig; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D98E618A702575149BDB941EC9BC221 /* WMLogining.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = WMLogining.framework; path = WMLogining.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EA4C2857154F9779C902CD8B1F19EFC /* Pods-WMDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WMDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9FCF01A40EFE63D90633E900BF93F8AB /* WMLogining.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WMLogining.release.xcconfig; sourceTree = "<group>"; };
+		A3A1592772CB6DD45BED0D23A948F893 /* WMLogining-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WMLogining-umbrella.h"; sourceTree = "<group>"; };
+		A6359116CA42AE87ACED2647B2A06806 /* Pods-WMDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMDemo.release.xcconfig"; sourceTree = "<group>"; };
+		AC272F0550A35537B4288C2D128C5DCA /* WMLogining-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WMLogining-Info.plist"; sourceTree = "<group>"; };
+		B34FE71664F9C33ECD79A949156C3D6B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B6844E7F671640C38F522F6DFC6BE60B /* Pods-WMDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WMDemo-dummy.m"; sourceTree = "<group>"; };
+		B6B73022353FF4CD23C22DAA28FFEB81 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		C42BC8D406E93C634DFDC1A878A14079 /* WMLogining.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMLogining.modulemap; sourceTree = "<group>"; };
+		C6B8BFB9C73035CC5F3E5369BAB874D4 /* WMNetworking-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WMNetworking-Info.plist"; sourceTree = "<group>"; };
+		CEBCB8409198E5DD11E366B7F3BD4192 /* WMNetworking.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMNetworking.m; path = WMNetworking/Classes/WMNetworking.m; sourceTree = "<group>"; };
+		D11B6216E633F69D6FA7F59902692B0D /* Pods-WMDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WMDemo-Info.plist"; sourceTree = "<group>"; };
+		E2F7C5CED5316B1200C0752E476DD423 /* WMNetworking.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = WMNetworking.modulemap; sourceTree = "<group>"; };
+		E522F33540FF35B41506E0E52EEC13CB /* Pods-WMDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WMDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E954073D0CB79FAAEE514239ED9A08F4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ED056F1260E0C040C8D1E62CB8C00A6D /* Pods-WMDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WMDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F035B5B0CA11D203D99DC37C0D0AAB08 /* Pods-WMDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WMDemo-frameworks.sh"; sourceTree = "<group>"; };
+		F23712D5D26A4434C4D6E4908F473963 /* WMLogining.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WMLogining.m; path = WMLogining/Classes/WMLogining.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		523A9519B6ECD5E28D95D76C40CDB2F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B26BE19D7CFCE5B998BC43C3A408C58E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		553C2B4BDC410CC47E03639051C7DA82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE09DB469C708637457CBD7ACC773D1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6BD9B2D190D49FFB97CD392D00599692 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1C280FE910CC9EDC43E97BFB3D63CAB9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F039C9FE6B6231A3FE7F14BA69F16D /* WMNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				78D0A482A4B7DE9BA93A62079325A89F /* WMNetworking.h */,
+				CEBCB8409198E5DD11E366B7F3BD4192 /* WMNetworking.m */,
+				EED34CC4277C09402CB975773DFF9964 /* Pod */,
+				A07981FD521A7D50958325A373DA5B2C /* Support Files */,
+			);
+			name = WMNetworking;
+			path = ../Lib/WMNetworking;
+			sourceTree = "<group>";
+		};
+		1060D04BC0779CC0F93BC573E6329F37 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				E954073D0CB79FAAEE514239ED9A08F4 /* LICENSE */,
+				981B3F356E71AD5D1A338E90A9945EAF /* README.md */,
+				100FA5DA6CD7065DAD0398A81BD19F60 /* WMLogining.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		25A54DB9FF3040F912186554A734D7B7 /* Pods-WMDemo */ = {
+			isa = PBXGroup;
+			children = (
+				52585B223419730ABD52424B8273EB42 /* Pods-WMDemo.modulemap */,
+				9EA4C2857154F9779C902CD8B1F19EFC /* Pods-WMDemo-acknowledgements.markdown */,
+				E522F33540FF35B41506E0E52EEC13CB /* Pods-WMDemo-acknowledgements.plist */,
+				B6844E7F671640C38F522F6DFC6BE60B /* Pods-WMDemo-dummy.m */,
+				F035B5B0CA11D203D99DC37C0D0AAB08 /* Pods-WMDemo-frameworks.sh */,
+				D11B6216E633F69D6FA7F59902692B0D /* Pods-WMDemo-Info.plist */,
+				6E5A45F8C948F184B0F6416B578A9E2E /* Pods-WMDemo-umbrella.h */,
+				ED056F1260E0C040C8D1E62CB8C00A6D /* Pods-WMDemo.debug.xcconfig */,
+				A6359116CA42AE87ACED2647B2A06806 /* Pods-WMDemo.release.xcconfig */,
+			);
+			name = "Pods-WMDemo";
+			path = "Target Support Files/Pods-WMDemo";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		91B84859D2C5886FB9D448D486ED5A75 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				EC75734ADF55421F7D3BFD2D6F7032A9 /* WMLogining */,
+				01F039C9FE6B6231A3FE7F14BA69F16D /* WMNetworking */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9A38DA433F50C7FE7584963837852E73 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0ED4BF71D9A9DAE5CB6D53954A6B4F26 /* Pods_WMDemo.framework */,
+				9D98E618A702575149BDB941EC9BC221 /* WMLogining.framework */,
+				8B28CE1A619D0E29B0EBB276F02CAC5F /* WMNetworking.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A07981FD521A7D50958325A373DA5B2C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E2F7C5CED5316B1200C0752E476DD423 /* WMNetworking.modulemap */,
+				1E304AAF3EFA26945139FC1392BE0AF2 /* WMNetworking-dummy.m */,
+				C6B8BFB9C73035CC5F3E5369BAB874D4 /* WMNetworking-Info.plist */,
+				6E335AE7E79A0440E6C3C6D10A8E4CC0 /* WMNetworking-prefix.pch */,
+				878DE029124FF5828B3C2DC80178D923 /* WMNetworking-umbrella.h */,
+				9BD27D45FD9752EDB0CFB291957F0C2D /* WMNetworking.debug.xcconfig */,
+				4714FD572934DB5D916C2372FD1ADBD8 /* WMNetworking.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/WMNetworking";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				91B84859D2C5886FB9D448D486ED5A75 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				9A38DA433F50C7FE7584963837852E73 /* Products */,
+				FDF175D6F52D7DBA28CD7C823BF19DE5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E297B7DA8C3BB4475816A89D4AA1063F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C42BC8D406E93C634DFDC1A878A14079 /* WMLogining.modulemap */,
+				53DBF0A7A46F780D2EA7CE0BF84C22E3 /* WMLogining-dummy.m */,
+				AC272F0550A35537B4288C2D128C5DCA /* WMLogining-Info.plist */,
+				363927FBEE460A541A94A08D956428FB /* WMLogining-prefix.pch */,
+				A3A1592772CB6DD45BED0D23A948F893 /* WMLogining-umbrella.h */,
+				554A61207CA3FE82DFCC766D375C86E3 /* WMLogining.debug.xcconfig */,
+				9FCF01A40EFE63D90633E900BF93F8AB /* WMLogining.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../../Pods/Target Support Files/WMLogining";
+			sourceTree = "<group>";
+		};
+		EC75734ADF55421F7D3BFD2D6F7032A9 /* WMLogining */ = {
+			isa = PBXGroup;
+			children = (
+				23E75EBA221B06EC23B693C0A2B36AF2 /* WMLogining.h */,
+				F23712D5D26A4434C4D6E4908F473963 /* WMLogining.m */,
+				1060D04BC0779CC0F93BC573E6329F37 /* Pod */,
+				E297B7DA8C3BB4475816A89D4AA1063F /* Support Files */,
+			);
+			name = WMLogining;
+			path = ../Lib/WMLogining;
+			sourceTree = "<group>";
+		};
+		EED34CC4277C09402CB975773DFF9964 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				B34FE71664F9C33ECD79A949156C3D6B /* LICENSE */,
+				B6B73022353FF4CD23C22DAA28FFEB81 /* README.md */,
+				104998F2B8D5CAEE595AD2F9F34460FD /* WMNetworking.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		FDF175D6F52D7DBA28CD7C823BF19DE5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				25A54DB9FF3040F912186554A734D7B7 /* Pods-WMDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		60EC77C347491FEFA4BEAF8E4A038929 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFCADD4A4215E1754A907171C73FBC3B /* WMNetworking-umbrella.h in Headers */,
+				97F3086AD924858DE389313C56ED8C50 /* WMNetworking.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8323F2D55E84316995D4845FC23807F4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD7AC25E13A729EB8285B3BE65A82723 /* Pods-WMDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE545ACCFD9F4133E0D4E08B4846ECE9 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D9D8016DA5FA326A8717F712B604F2 /* WMLogining-umbrella.h in Headers */,
+				675D00CCD4B8B5465AE2E7C1BE6F6D45 /* WMLogining.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		173507D8DB7199CFAE1975A43469827C /* WMLogining */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A617D2960C3858769945AE3F3600BC6 /* Build configuration list for PBXNativeTarget "WMLogining" */;
+			buildPhases = (
+				CE545ACCFD9F4133E0D4E08B4846ECE9 /* Headers */,
+				C78A3ECFB2CD6B9CFD792C0971D43F92 /* Sources */,
+				6BD9B2D190D49FFB97CD392D00599692 /* Frameworks */,
+				01B017984A2EC5CE3EB004AB56ED2888 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMLogining;
+			productName = WMLogining;
+			productReference = 9D98E618A702575149BDB941EC9BC221 /* WMLogining.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3C2B862DBD38D2319EBCD16B3FF04739 /* WMNetworking */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD474E4007BCB9DB141B1B2C0F682D3C /* Build configuration list for PBXNativeTarget "WMNetworking" */;
+			buildPhases = (
+				60EC77C347491FEFA4BEAF8E4A038929 /* Headers */,
+				6EDA9764B0A05C303D06634F1F3B7C74 /* Sources */,
+				553C2B4BDC410CC47E03639051C7DA82 /* Frameworks */,
+				03805E78BD2111505DDF512AE75DD42A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WMNetworking;
+			productName = WMNetworking;
+			productReference = 8B28CE1A619D0E29B0EBB276F02CAC5F /* WMNetworking.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C7AA5DACB8E5DAA7DE8AEE2E040E79F3 /* Pods-WMDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 296FC7B86522717EDC35C78498319F0D /* Build configuration list for PBXNativeTarget "Pods-WMDemo" */;
+			buildPhases = (
+				8323F2D55E84316995D4845FC23807F4 /* Headers */,
+				102647690616164AAFD4CA78F38FD7D3 /* Sources */,
+				523A9519B6ECD5E28D95D76C40CDB2F6 /* Frameworks */,
+				80BD2D9D464264E5DB86BBD5C0E9E720 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D371506A9A46879E546F58DD45AE55D3 /* PBXTargetDependency */,
+				D0252022EFB163706F26FB8B9096387F /* PBXTargetDependency */,
+			);
+			name = "Pods-WMDemo";
+			productName = "Pods-WMDemo";
+			productReference = 0ED4BF71D9A9DAE5CB6D53954A6B4F26 /* Pods_WMDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 9A38DA433F50C7FE7584963837852E73 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C7AA5DACB8E5DAA7DE8AEE2E040E79F3 /* Pods-WMDemo */,
+				173507D8DB7199CFAE1975A43469827C /* WMLogining */,
+				3C2B862DBD38D2319EBCD16B3FF04739 /* WMNetworking */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B017984A2EC5CE3EB004AB56ED2888 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		03805E78BD2111505DDF512AE75DD42A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80BD2D9D464264E5DB86BBD5C0E9E720 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		102647690616164AAFD4CA78F38FD7D3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACFEB3106ED8E91ADE21F7084A6D687D /* Pods-WMDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6EDA9764B0A05C303D06634F1F3B7C74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3680C2DBA4BA56A159442317311CB948 /* WMNetworking-dummy.m in Sources */,
+				B77BCA003F10ACB14D30001DD3BEF987 /* WMNetworking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C78A3ECFB2CD6B9CFD792C0971D43F92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E2C6C85F8957156D1A1040180D097490 /* WMLogining-dummy.m in Sources */,
+				E1469391CE35B9E86CA544AF33B94403 /* WMLogining.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0252022EFB163706F26FB8B9096387F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMNetworking;
+			target = 3C2B862DBD38D2319EBCD16B3FF04739 /* WMNetworking */;
+			targetProxy = B1CD3CCB78D7B28B582E9542AE6B6EC9 /* PBXContainerItemProxy */;
+		};
+		D371506A9A46879E546F58DD45AE55D3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WMLogining;
+			target = 173507D8DB7199CFAE1975A43469827C /* WMLogining */;
+			targetProxy = 4E984972FFFD42FD1F6FE659DA76D444 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3AD51440EEA56829723B3A706912FC22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554A61207CA3FE82DFCC766D375C86E3 /* WMLogining.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMLogining/WMLogining-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMLogining/WMLogining-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WMLogining/WMLogining.modulemap";
+				PRODUCT_MODULE_NAME = WMLogining;
+				PRODUCT_NAME = WMLogining;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5ECC6117DBCCB63EB3717138F8C7F076 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED056F1260E0C040C8D1E62CB8C00A6D /* Pods-WMDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WMDemo/Pods-WMDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WMDemo/Pods-WMDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		669C2E4C7E9E8B5696002E8881C813A3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FCF01A40EFE63D90633E900BF93F8AB /* WMLogining.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMLogining/WMLogining-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMLogining/WMLogining-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WMLogining/WMLogining.modulemap";
+				PRODUCT_MODULE_NAME = WMLogining;
+				PRODUCT_NAME = WMLogining;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8C271435B7A1C645D2D488E5036B1FC0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9BD27D45FD9752EDB0CFB291957F0C2D /* WMNetworking.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMNetworking/WMNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMNetworking/WMNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WMNetworking/WMNetworking.modulemap";
+				PRODUCT_MODULE_NAME = WMNetworking;
+				PRODUCT_NAME = WMNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0716FF48779410F9D696977322C0B55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6359116CA42AE87ACED2647B2A06806 /* Pods-WMDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WMDemo/Pods-WMDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WMDemo/Pods-WMDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F82E0352DAFBEE1433C00D5F0F9430BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4714FD572934DB5D916C2372FD1ADBD8 /* WMNetworking.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/WMNetworking/WMNetworking-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/WMNetworking/WMNetworking-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/WMNetworking/WMNetworking.modulemap";
+				PRODUCT_MODULE_NAME = WMNetworking;
+				PRODUCT_NAME = WMNetworking;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		296FC7B86522717EDC35C78498319F0D /* Build configuration list for PBXNativeTarget "Pods-WMDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5ECC6117DBCCB63EB3717138F8C7F076 /* Debug */,
+				B0716FF48779410F9D696977322C0B55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A617D2960C3858769945AE3F3600BC6 /* Build configuration list for PBXNativeTarget "WMLogining" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3AD51440EEA56829723B3A706912FC22 /* Debug */,
+				669C2E4C7E9E8B5696002E8881C813A3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC01E0B73776AF6B58DC318A9BE988D7 /* Debug */,
+				C605C363CC9F26F9FF97DBB1D5C6E25C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD474E4007BCB9DB141B1B2C0F682D3C /* Build configuration list for PBXNativeTarget "WMNetworking" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8C271435B7A1C645D2D488E5036B1FC0 /* Debug */,
+				F82E0352DAFBEE1433C00D5F0F9430BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
